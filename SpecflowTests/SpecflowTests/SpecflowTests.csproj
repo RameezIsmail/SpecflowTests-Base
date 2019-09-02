@@ -90,50 +90,50 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Certification\CertificationFeature.feature.cs">
+    <Compile Include="Specflow Functions\CertificationFeature.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CertificationFeature.feature</DependentUpon>
     </Compile>
-    <Compile Include="Certification\CertificationFeatureSteps.cs" />
-    <Compile Include="Education\EducationFeature.feature.cs">
+    <Compile Include="Specflow Functions\CertificationFeatureSteps.cs" />
+    <Compile Include="Specflow Functions\EducationFeature.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EducationFeature.feature</DependentUpon>
     </Compile>
-    <Compile Include="Education\EducationFeatureSteps.cs" />
-    <Compile Include="Languages\LanguageFeature.feature.cs">
+    <Compile Include="Specflow Functions\EducationFeatureSteps.cs" />
+    <Compile Include="Specflow Functions\LanguageFeature.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>LanguageFeature.feature</DependentUpon>
     </Compile>
-    <Compile Include="Languages\LanguageFeatureSteps.cs" />
+    <Compile Include="Specflow Functions\LanguageFeatureSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Skills\SkillsFeature.feature.cs">
+    <Compile Include="Specflow Functions\SkillsFeature.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SkillsFeature.feature</DependentUpon>
     </Compile>
-    <Compile Include="Skills\SkillsFeatureSteps.cs" />
+    <Compile Include="Specflow Functions\SkillsFeatureSteps.cs" />
     <Compile Include="Utils\Start.cs" />
     <Compile Include="Utils\TestAllFeatures.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Certification\CertificationFeature.feature">
+    <None Include="Specflow Functions\CertificationFeature.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>CertificationFeature.feature.cs</LastGenOutput>
     </None>
-    <None Include="Education\EducationFeature.feature">
+    <None Include="Specflow Functions\EducationFeature.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>EducationFeature.feature.cs</LastGenOutput>
     </None>
-    <None Include="Languages\LanguageFeature.feature">
+    <None Include="Specflow Functions\LanguageFeature.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>LanguageFeature.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
-    <None Include="Skills\SkillsFeature.feature">
+    <None Include="Specflow Functions\SkillsFeature.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>SkillsFeature.feature.cs</LastGenOutput>
     </None>

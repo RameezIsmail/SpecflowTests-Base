@@ -12,19 +12,19 @@ namespace SpecflowTests.Education
         [Given(@"I clicked on the education tab under Profile page")]
         public void GivenIClickedOnTheEducationTabUnderProfilePage()
         {
-            ScenarioContext.Current.Pending();
+            SpecflowPages.Pages.Education.EducationTab();
         }
         
         [When(@"I add new education details")]
         public void WhenIAddNewEducationDetails()
         {
-            ScenarioContext.Current.Pending();
+            SpecflowPages.Pages.Education.Add();
         }
 
         [Then(@"that education details should be displayed on my listings")]
         public void ThenThatEducationDetailsShouldBeDisplayedOnMyListings()
         {
-            ScenarioContext.Current.Pending();
+            SpecflowPages.Pages.Education.AddValidate();
         }
 
         #endregion
@@ -35,19 +35,19 @@ namespace SpecflowTests.Education
         [Given(@"I click on the education tab under Profile Page")]
         public void GivenIClickOnTheEducationTabUnderProfilePage()
         {
-            ScenarioContext.Current.Pending();
+            SpecflowPages.Pages.Education.EducationTab();
         }
 
         [When(@"I edit the education details")]
         public void WhenIEditTheEducationDetails()
         {
-            ScenarioContext.Current.Pending();
+            SpecflowPages.Pages.Education.Edit();
         }
 
         [Then(@"That education that been edited should be displayed on my listings")]
         public void ThenThatEducationThatBeenEditedShouldBeDisplayedOnMyListings()
         {
-            ScenarioContext.Current.Pending();
+            SpecflowPages.Pages.Education.EditValidate();
         }
 
         #endregion
@@ -58,19 +58,19 @@ namespace SpecflowTests.Education
         [Given(@"I clicked on the education tab under Profile Page")]
         public void GivenIClickedOnEducationTabUnderProfilePage()
         {
-            ScenarioContext.Current.Pending();
+            SpecflowPages.Pages.Education.EducationTab();
         }
 
         [When(@"I click that delete button")]
         public void WhenIClickThatDeleteButton()
         {
-            ScenarioContext.Current.Pending();
+            SpecflowPages.Pages.Education.Delete();
         }
                      
         [Then(@"the education that got clicked should not be displayed in my listings")]
         public void ThenTheEducationThatGotClickedShouldNotBeDisplayedInMyListings()
         {
-            ScenarioContext.Current.Pending();
+            SpecflowPages.Pages.Education.DeleteValidate();
         }
 
         #endregion

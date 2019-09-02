@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpecflowTests.Education
+namespace SpecflowTests.SpecflowFunctions
 {
     using TechTalk.SpecFlow;
     
@@ -62,7 +62,7 @@ namespace SpecflowTests.Education
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "EducationFeature")))
             {
-                global::SpecflowTests.Education.EducationFeatureFeature.FeatureSetup(null);
+                global::SpecflowTests.SpecflowFunctions.EducationFeatureFeature.FeatureSetup(null);
             }
         }
         
